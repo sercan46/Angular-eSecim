@@ -1,0 +1,12 @@
+.anaBaslik{
+  text-align: center;
+  color: crimson;
+  text-decoration: underline;
+
+}
+div {
+  overflow: hidden;
+}
+.buttonStyle{
+  float:right;
+}

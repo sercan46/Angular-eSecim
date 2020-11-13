@@ -1,0 +1,53 @@
+.bannerImage{
+  background-image: url('../../assets/banner.png');
+  width:100%;
+  height: -webkit-fill-available ;
+}
+ .btn {
+  position: absolute;
+  top: 50%;
+  left: 90%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  font-size: 16px;
+  padding: 12px 24px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  text-align: center;
+  font-weight: bold;
+  height: 10vh;
+  width: 28vh;
+
+}
+
+ .btn:hover {
+  background-color: white;
+  color: red;
+}
+.btn2 {
+  position: absolute;
+  top: 70%;
+  padding-left: 25px;
+  left: 90%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  font-size: 16px;
+  padding: 12px 24px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  text-align: center;
+  font-weight: bold;
+  height: 10vh;
+  width: 28vh;
+
+}
+
+ .btn2:hover {
+  background-color: white;
+  color: red;
+}
+
+
+

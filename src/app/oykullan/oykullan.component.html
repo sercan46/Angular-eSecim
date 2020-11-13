@@ -1,0 +1,58 @@
+<div class="container">
+  <div class="window">
+    <div class="overlay"></div>
+    <div class="content">
+      <button  style="margin-left: 80vh;margin-top:2vh;" mat-fab (click)="openPopup()"><mat-icon>help_outline</mat-icon></button>
+
+      <div class="welcome">Hoş Geldiniz!</div>
+      <div class="subtitle">
+        Oy Kullanma Sistemine Giriş Yapabilmek İçin Lütfen Giriş Yapınız.
+      </div>
+      <div class="input-fields" [formGroup]="form">
+        <div>
+          <mat-error
+            style="color: black;"
+            *ngIf="
+              form.controls['TC'].invalid && form.controls['TC'].touched
+            "
+          >
+            Tc Kimlik Numarası Zorunlu
+          </mat-error>
+          <input
+            required
+            type="number"
+            placeholder="TC Kimlik  Numarası"
+            class="input-line full-width"
+            formControlName="TC"
+          />
+        </div>
+
+        <mat-error
+          style="color: black;"
+          *ngIf="
+            form.controls['Password'].invalid &&
+            form.controls['Password'].touched
+          "
+        >
+          Şifre Zorunlu
+        </mat-error>
+        <input
+          type="password"
+          placeholder="Şifre"
+          class="input-line full-width"
+          formControlName="Password"
+        />
+      </div>
+
+      <div>
+        <button mat-button class="ghost-round full-width"  (click)="girisYap()">
+          Giriş Yap
+        </button>
+        <button mat-button class="ghost-round full-width"  (click)="uyeol()">
+         Üye Ol
+        </button>
+      </div>
+    </div>
+
+  </div>
+</div>
