@@ -2,6 +2,9 @@
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 8.3.24.
 
+## Projenin Amacı
+Ön tarafta Angular kullanarak Backend kısmında ASP.Net ve MSSQL kullandığım projemdir. Projemdeki amaç online bir şekilde parti seçimi yapabilmek. Kişi TC kimlik numarası ile sisteme giriş yapıp sadece bir sefer seçtiği partiye oy verip sistemden çıkış yapmaktadır. Hangi partiye kaç oy verildiğinin tutulduğu sistem.
+
 ## Development server
 
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
